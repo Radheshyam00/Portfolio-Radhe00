@@ -39,10 +39,10 @@ const About = ({isDarkMode}) => {
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'>
                 I am an experience Cybersecurity Analyst and hold multiple 
-                industry-recognized certifications, including Certified SOC Analyst , 
+                industry-recognized certifications, including Certified SOC Analyst(CSA), 
                 Certified Microsoft Fabric Analyst, Certified in Cybersecurity (ISC2), 
-                Red Hat Certified System Administrator (RHCSA), Certified AppSec Practitioner, 
-                Certified Network Security Practitioner (The SecOps Group), and 
+                Red Hat Certified System Administrator (RHCSA), Certified AppSec Practitioner(CAP), 
+                Certified Network Security Practitioner (CNSP), Windows & IOS Forensic(Belkasoft), and 
                 Certified Linux File System Professional (Center for Cyber Security Studies & Research).
                 </p>
                 <motion.ul 
