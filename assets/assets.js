@@ -8,6 +8,7 @@ import project_icon_dark from './project-icon-dark.png';
 import digital from './digital.png';
 import data from './data.png';
 import power from './power.png';
+import bec from './BEC.png';
 import  factory from './factory.png';
 import lake from './lake.png' ;
 import elastic from './elastic-stack.png';
@@ -60,6 +61,7 @@ export const assets = {
     project_icon_dark,
     digital,
     data,
+    bec,
     power,
     factory,
     lake,
@@ -146,5 +148,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.power, assets.data, assets.lake, assets.factory, assets.elastic, assets.nmap, assets.docker
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.power, assets.data, assets.lake, assets.factory, assets.elastic, assets.nmap, assets.docker, assets.bec
 ];
