@@ -6,24 +6,24 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import digital from './digital.png';
-import data from './data.png'
-import power from './power.png'
-import  factory from './factory.png'
-import lake from './lake.png' 
-import elastic from './elastic-stack.png'
-import docker from './docker.png'
-import nmap from './nmap.png'
+import data from './data.png';
+import power from './power.png';
+import  factory from './factory.png';
+import lake from './lake.png' ;
+import elastic from './elastic-stack.png';
+import docker from './docker.png';
+import nmap from './nmap.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
-import cc from './cc.png'
-import rhcsa from './rhcsa.png'
-import detect from './cyber-detective.png'
-import Fabric from './Fabric.png'
-import CSA from './CSA.png'
+import cc from './cc.png';
+import rhcsa from './rhcsa.png';
+import detect from './cyber-detective.png';
+import Fabric from './Fabric.png';
+import CSA from './CSA.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
@@ -48,7 +48,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-import Link from 'next/link';
+
 
 export const assets = {
     user_image,
