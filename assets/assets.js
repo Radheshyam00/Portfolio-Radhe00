@@ -5,6 +5,7 @@ import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
+import digital from './digital.png';
 import data from './data.png'
 import power from './power.png'
 import  factory from './factory.png'
@@ -57,6 +58,7 @@ export const assets = {
     edu_icon_dark,
     project_icon,
     project_icon_dark,
+    digital,
     data,
     power,
     factory,
@@ -130,9 +132,11 @@ export const workData = [
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Ethical Hacking', description: 'Ethical hacking is the proactive, authorized practice of detecting vulnerabilities in an application, system, or organization’s infrastructure...', link: 'https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-ethical-hacking' },
+    { icon: assets.digital, title: 'DFIR', description: 'DFIR is the process of collecting digital forensic evidence, hunting for suspicious activities, and continuously monitoring for endpoint events...', link: 'https://www.rapid7.com/fundamentals/digital-forensics-and-incident-response-dfir/' },
     { icon: assets.mobile_icon, title: 'SOC Aanlyst', description: 'An SOC analyst is a key player in cybersecurity, working as a member of a dedicated Security Operations Center (SOC)...', link: 'https://www.offsec.com/cybersecurity-roles/soc-analyst/' },
-    { icon: assets.ui_icon, title: 'Fabric Analyst', description: 'Microsoft Fabric encompasses data science, real-time analytics, storage, and data migration within a unified solution...', link: 'https://www.latentview.com/microsoft-fabric/' },
     { icon: assets.graphics_icon, title: 'System Administrator', description: 'An IT administrator, system administrator, sysadmin, or admin is a person who is responsible for the upkeep, configuration, and reliable operation of computer systems....', link: 'https://en.wikipedia.org/wiki/System_administrator' },
+    { icon: assets.ui_icon, title: 'Fabric Analyst', description: 'Microsoft Fabric encompasses data science, real-time analytics, storage, and data migration within a unified solution...', link: 'https://www.latentview.com/microsoft-fabric/' },
+    
 ]
 
 export const infoList = [
