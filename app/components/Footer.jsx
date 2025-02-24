@@ -23,9 +23,9 @@ const Footer = ({isDarkMode}) => {
     border-t border-gray-400 mx-[8%] mt-12 py-6'>
             <p>@ 2025 Radheshyam Janwa. All rights reserved</p>
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-                <li><a href="https://www.linkedin.com/in/radheshyam-janwa-9a4506227/">Linkedin</a></li>
-                <li><a href="https://github.com/pagalboy00">Github</a></li>
-                <li><a href="https://x.com/RadheshyamRoya1/">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/radheshyam-janwa-9a4506227/" target='_blank'>Linkedin</a></li>
+                <li><a href="https://github.com/Radheshyam00" target='_blank'>Github</a></li>
+                <li><a href="https://x.com/RadheshyamRoya1/" target='_blank'>Twitter</a></li>
             </ul>
     </div>
     </div>

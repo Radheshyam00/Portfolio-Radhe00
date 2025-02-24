@@ -47,7 +47,7 @@ const About = ({isDarkMode}) => {
                 </p>
                 <motion.ul 
                 whileHover={{scale: 1.05}}
-                className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
+                className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl'>
                     {infoList.map(({icon, iconDark, title, description}, index)=>(
                         <motion.li 
                         initial={{opacity: 0, y: -20}}
@@ -70,7 +70,7 @@ const About = ({isDarkMode}) => {
                 className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tool I Use</motion.h4>
                 <motion.ul 
                 // whileHover={{scale: 1.01}}
-                className='flex items-center gap-3 mb-4 sm:gap-5'>
+                className='flex flex-wrap items-center gap-3 mb-4 sm:gap-5'>
                     {toolsData.map((tool, index)=>(
                         <motion.li 
                         whileHover={{scale: 1.1}}
@@ -83,9 +83,9 @@ const About = ({isDarkMode}) => {
                         </motion.li>
                     ))}
                 </motion.ul>
-                <motion.ul 
+                {/* <motion.ul 
                 // whileHover={{scale: 1.01}}
-                className='flex items-center gap-3 sm:gap-5'>
+                className='flex flex-wrap items-center gap-3 sm:gap-5'>
                     {toolsData1.map((tool, index)=>(
                         <motion.li 
                         whileHover={{scale: 1.1}}
@@ -97,7 +97,7 @@ const About = ({isDarkMode}) => {
                             <Image src={tool} alt='Tool' className='w-10 sm:w-15 dark:hover:bg-slate-200 dark:hover:rounded-lg' />
                         </motion.li>
                     ))}
-                </motion.ul>
+                </motion.ul> */}
             </motion.div>
         </motion.div>
     </motion.div>
