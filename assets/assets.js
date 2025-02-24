@@ -47,6 +47,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import Link from 'next/link';
 
 export const assets = {
     user_image,
@@ -105,21 +106,25 @@ export const workData = [
         title: 'Log Analyser',
         description: 'Minor Project',
         bgImage: '/work-1.png',
+        link: 'https://github.com/Radheshyam00/Secure-Hosting-of-Web-App-on-Azure-Cloud',
     },
     {
         title: 'Call Handler',
         description: 'Major Project',
         bgImage: '/work-2.png',
+        link: 'https://github.com/Radheshyam00/Secure-Hosting-of-Web-App-on-Azure-Cloud',
     },
     {
         title: 'proximity and CMS protal',
         description: 'System Administrator',
         bgImage: '/work-3.png',
+        link: 'https://github.com/Radheshyam00/Secure-Hosting-of-Web-App-on-Azure-Cloud',
     },
     {
-        title: 'Deploy secure on cloud',
+        title: 'Secure Hosting on Cloud',
         description: 'Cloud',
         bgImage: '/work-4.png',
+        link: 'https://github.com/Radheshyam00/Secure-Hosting-of-Web-App-on-Azure-Cloud',
     },
 ]
 
