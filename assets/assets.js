@@ -119,10 +119,10 @@ export const workData = [
         link: 'https://github.com/Radheshyam00/Secure-Hosting-of-Web-App-on-Azure-Cloud',
     },
     {
-        title: 'proximity and CMS protal',
+        title: 'cPanel/WHM with Proxmox',
         description: 'System Administrator',
         bgImage: '/work-3.png',
-        link: 'https://github.com/Radheshyam00/Secure-Hosting-of-Web-App-on-Azure-Cloud',
+        link: 'https://github.com/Radheshyam00/Setup-cPanel-on-Azure-with-Proxmox',
     },
     {
         title: 'Secure Hosting on Cloud',
