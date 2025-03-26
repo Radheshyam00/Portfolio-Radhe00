@@ -7,6 +7,7 @@ const Footer = ({isDarkMode}) => {
     <div className='mt-20'>
         <div className='text-center'>
           <div className='grid grid-cols-auto gap-6 my-10 px-20'>
+            <Image src={assets.ceh} alt='' className='w-36 mx-auto mb-2'/>
             <Image src={assets.CSA} alt='' className='w-36 mx-auto mb-2'/>
             <Image src={assets.Fabric} alt='' className='w-36 mx-auto mb-2'/>
             <Image src={assets.rhcsa} alt='' className='w-36 mx-auto mb-2'/>

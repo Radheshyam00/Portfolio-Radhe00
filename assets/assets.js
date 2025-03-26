@@ -20,6 +20,7 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
+import ceh from './CEH.png'
 import cc from './cc.png';
 import rhcsa from './rhcsa.png';
 import detect from './cyber-detective.png';
@@ -74,6 +75,7 @@ export const assets = {
     git,
     mongodb,
     right_arrow_white,
+    ceh,
     cc,
     rhcsa,
     detect,
