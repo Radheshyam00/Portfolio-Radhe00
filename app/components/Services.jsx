@@ -27,7 +27,7 @@ const Services = ({isDarkMode}) => {
         transition={{duration: 0.5, delay: 0.7}}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
             I am Cybersecurity Expert from Udaipur, India with 
-            two year experience in Multiple Field like SOC Analyst, DFIR, 
+            two year experience in Multiple Field like Ethical Hacking, SOC Analyst, DFIR, 
             Penetration Testing and System Administrator.
         </motion.p>
         <motion.div 
