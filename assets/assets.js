@@ -112,7 +112,7 @@ export const workData = [
         title: 'Log Analyser',
         description: 'Minor Project',
         bgImage: '/work-1.png',
-        link: 'https://github.com/Radheshyam00/Secure-Hosting-of-Web-App-on-Azure-Cloud',
+        link: 'https://github.com/Radheshyam00/Log-Analyser',
     },
     {
         title: 'Call Handler',
