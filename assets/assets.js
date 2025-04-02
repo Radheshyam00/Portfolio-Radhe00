@@ -156,3 +156,4 @@ assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets
 // export const toolsData1 = [
 //     assets.power, assets.data, assets.lake, assets.factory, assets.elastic, assets.bec
 //     ];
+
