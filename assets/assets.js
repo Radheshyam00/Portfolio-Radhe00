@@ -110,26 +110,26 @@ export const assets = {
 export const workData = [
     {
         title: 'Log Analyser',
-        description: 'Minor Project',
-        bgImage: '/work-1.png',
+        description: 'SOC Analyst',
+        bgImage: '/Log.png',
         link: 'https://github.com/Radheshyam00/Log-Analyser',
     },
     {
         title: 'Call Handler',
-        description: 'Major Project',
-        bgImage: '/work-2.png',
+        description: 'Ongoing',
+        bgImage: '/Call.png',
         link: 'https://github.com/Radheshyam00/Secure-Hosting-of-Web-App-on-Azure-Cloud',
     },
     {
         title: 'cPanel/WHM with Proxmox',
         description: 'System Administrator',
-        bgImage: '/work-3.png',
+        bgImage: '/Cpanel.png',
         link: 'https://github.com/Radheshyam00/Setup-cPanel-on-Azure-with-Proxmox',
     },
     {
         title: 'Secure Hosting on Cloud',
         description: 'Cloud',
-        bgImage: '/work-4.png',
+        bgImage: '/Cloud-Security.png',
         link: 'https://github.com/Radheshyam00/Secure-Hosting-of-Web-App-on-Azure-Cloud',
     },
 ]
