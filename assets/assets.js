@@ -118,7 +118,7 @@ export const workData = [
         title: 'Call Handler',
         description: 'Ongoing',
         bgImage: '/Call.png',
-        link: 'https://github.com/Radheshyam00/Secure-Hosting-of-Web-App-on-Azure-Cloud',
+        link: '',
     },
     {
         title: 'cPanel/WHM with Proxmox',
