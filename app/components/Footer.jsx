@@ -7,7 +7,7 @@ const Footer = ({ isDarkMode }) => {
   return (
     <div className="mt-10">
       <div className="text-center">
-        <div className="flex flex-wrap justify-center items-center gap-6 mt-6">
+        <div className="flex flex-wrap justify-center items-center gap-6 mt-6 my-10 px-5">
           <img
             src="https://cyberdefenders-storage.s3.me-central-1.amazonaws.com/profile-badges/Pagalboy00.png"
             width="300"
@@ -38,7 +38,7 @@ const Footer = ({ isDarkMode }) => {
                   <Image src={assets.cc} alt='' className='w-36 mx-auto mb-2 md:block hidden'/>
                 </motion.div>
         </div> */}
-        <div className="grid grid-cols-auto gap-6 my-10 px-20">
+        <div className="grid grid-cols-auto gap-6 my-10 px-10">
           <Image src={assets.ceh} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.CSA} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.Fabric} alt="" className="w-36 mx-auto mb-2" />
