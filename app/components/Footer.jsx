@@ -7,7 +7,7 @@ const Footer = ({ isDarkMode }) => {
   return (
     <div className="mt-10">
       <div className="text-center">
-        <div className="flex flex-wrap justify-center items-center gap-6 mt-6">
+        <div className="flex flex-wrap justify-center items-center gap-7 mt-6">
           <img
             src="https://cyberdefenders-storage.s3.me-central-1.amazonaws.com/profile-badges/Pagalboy00.png"
             width="300"
