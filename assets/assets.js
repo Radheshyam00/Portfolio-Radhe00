@@ -32,7 +32,6 @@ import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
-import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
 import moon_icon from './moon_icon.png';
 import sun_icon from './sun_icon.png';
@@ -87,7 +86,6 @@ export const assets = {
     mail_icon_dark,
     profile_img,
     download_icon,
-    hand_icon,
     header_bg_color,
     moon_icon,
     sun_icon,
