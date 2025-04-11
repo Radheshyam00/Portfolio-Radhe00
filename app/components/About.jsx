@@ -69,7 +69,6 @@ const About = ({isDarkMode}) => {
                 transition={{duration: 0.5, delay: 1.3}}
                 className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tool I Use</motion.h4>
                 <motion.ul 
-                // whileHover={{scale: 1.01}}
                 className='flex flex-wrap items-center gap-3 mb-4 sm:gap-5'>
                     {toolsData.map((tool, index)=>(
                         <motion.li 
