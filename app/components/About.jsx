@@ -82,21 +82,6 @@ const About = ({isDarkMode}) => {
                         </motion.li>
                     ))}
                 </motion.ul>
-                {/* <motion.ul 
-                // whileHover={{scale: 1.01}}
-                className='flex flex-wrap items-center gap-3 sm:gap-5'>
-                    {toolsData1.map((tool, index)=>(
-                        <motion.li 
-                        whileHover={{scale: 1.1}}
-                        transition={{duration: 0.3}}
-                        key={index} className='flex items-center justify-center w-20 sm:w-14 aspect-square 
-                        border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500
-                        hover:shadow-black dark:hover:shadow-slate-200 
-                        dark:hover:bg-darkHover/50'>
-                            <Image src={tool} alt='Tool' className='w-10 sm:w-15 dark:hover:bg-slate-200 dark:hover:rounded-lg' />
-                        </motion.li>
-                    ))}
-                </motion.ul> */}
             </motion.div>
         </motion.div>
     </motion.div>
