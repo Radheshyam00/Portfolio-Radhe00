@@ -17,26 +17,6 @@ const Footer = ({ isDarkMode }) => {
             width="330"
           />
         </div>
-
-        {/* <div className='flex flex-wrap gap-6'>
-                <motion.div
-                    className="flex space-x-4 mt-4 gap-20"
-                    animate={{ x: ["100%", "-100%"] }} // Moves from start to end
-                    transition={{
-                    ease: "linear",
-                    duration: 15, // Adjust speed
-                    repeat: Infinity,
-                    }}
-                    whileHover={{ animationPlayState: "paused" }}
-                >
-                  <Image src={assets.ceh} alt='' className='w-36 mx-auto mb-2 md:block hidden'/>
-                  <Image src={assets.CSA} alt='' className='w-36 mx-auto mb-2 md:block hidden'/>
-                  <Image src={assets.Fabric} alt='' className='w-36 mx-auto mb-2 md:block hidden'/>
-                  <Image src={assets.rhcsa} alt='' className='w-36 mx-auto mb-2 md:block hidden'/>
-                  <Image src={assets.detect} alt='' className='w-36 mx-auto mb-2 md:block hidden'/>
-                  <Image src={assets.cc} alt='' className='w-36 mx-auto mb-2 md:block hidden'/>
-                </motion.div>
-        </div> */}
         <div className="grid grid-cols-auto gap-6 my-10 px-10">
           <Image src={assets.ceh} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.CSA} alt="" className="w-36 mx-auto mb-2" />
