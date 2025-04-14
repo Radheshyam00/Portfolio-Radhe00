@@ -48,11 +48,11 @@ const Work = ({isDarkMode}) => {
                             <p className='text-sm text-gray-700'>{project.description}</p>
                         </motion.div>
                         <motion.a 
-                        href={project.link} // Ensure the 'project' object has a valid 'link' property
+                        href={project.link} 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-blue-300 transition'
-                        whileHover={{ scale: 1.1 }} // Optional hover effect
+                        whileHover={{ scale: 1.1 }} 
                         >
                         <Image src={assets.send_icon} alt='send icon' className='w-5' />
                         </motion.a>
