@@ -22,6 +22,7 @@ import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import ceh from './CEH.png'
 import cc from './cc.png';
+import acp from './ACP.png';
 import rhcsa from './rhcsa.png';
 import detect from './cyber-detective.png';
 import Fabric from './Fabric.png';
@@ -76,6 +77,7 @@ export const assets = {
     right_arrow_white,
     ceh,
     cc,
+    acp,
     rhcsa,
     detect,
     Fabric,
