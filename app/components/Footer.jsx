@@ -20,6 +20,7 @@ const Footer = ({ isDarkMode }) => {
         <div className="grid grid-cols-auto gap-6 my-10 px-10">
           <Image src={assets.ceh} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.CSA} alt="" className="w-36 mx-auto mb-2" />
+          <Image src={assets.microsoft} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.Fabric} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.rhcsa} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.detect} alt="" className="w-36 mx-auto mb-2" />

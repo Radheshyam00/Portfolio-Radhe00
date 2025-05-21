@@ -27,6 +27,7 @@ import rhcsa from './rhcsa.png';
 import detect from './cyber-detective.png';
 import Fabric from './Fabric.png';
 import CSA from './CSA.png';
+import microsoft from './microsoft.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
@@ -82,6 +83,7 @@ export const assets = {
     detect,
     Fabric,
     CSA,
+    microsoft,
     logo,
     logo_dark,
     mail_icon,
