@@ -22,6 +22,7 @@ const Footer = ({ isDarkMode }) => {
           <Image src={assets.CSA} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.microsoft} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.Fabric} alt="" className="w-36 mx-auto mb-2" />
+          <Image src={assets.AZ_204} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.rhcsa} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.detect} alt="" className="w-36 mx-auto mb-2" />
           <Image src={assets.cc} alt="" className="w-36 mx-auto mb-2" />

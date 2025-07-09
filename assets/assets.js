@@ -5,6 +5,7 @@ import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
+import AZ_204 from './AZ-204.png';
 import digital from './digital.png';
 import data from './data.png';
 import power from './power.png';
@@ -74,6 +75,7 @@ export const assets = {
     firebase,
     figma,
     git,
+    AZ_204,
     mongodb,
     right_arrow_white,
     ceh,
