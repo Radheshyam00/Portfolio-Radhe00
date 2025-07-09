@@ -5,6 +5,7 @@ import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
+import ct from './ct.png';
 import AZ_204 from './AZ-204.png';
 import digital from './digital.png';
 import data from './data.png';
@@ -52,6 +53,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import up_police from './up_police.png';
 
 
 export const assets = {
@@ -64,7 +66,9 @@ export const assets = {
     project_icon_dark,
     digital,
     data,
+    ct,
     bec,
+    up_police,
     power,
     factory,
     lake,
@@ -156,5 +160,46 @@ export const infoList = [
 export const toolsData = [
 assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.docker, assets.nmap,assets.power, assets.data, assets.lake, assets.factory, assets.elastic, assets.bec
 ];
+
+export const experienceData = [
+  {
+    role: "Cybersecurity Intern",
+    company: "Uttar Pradesh Police",
+    duration: "June 2025 - June 2025",
+    logo: up_police,
+    points: [
+        "Advanced Network Forensics",
+        "Advanced iOS Forensics",
+        "Dark Web Analysis",
+        "Digital Forensic Investigation",
+        "Cyber Law and Regulations",
+        "Cryptocurrency Analysis and Tracking",
+        "Cyber Threat Intelligence",
+        "Malware Analysis and Reverse Engineering",
+        "Real-World Hacking Techniques",
+        "Monitored and analyzed security alerts in SIEM tools.",
+        "Assisted in threat hunting and vulnerability assessments.",
+        "Documented incident response procedures and reports.",
+    ],
+  },
+  {
+    role: "Cloud Infra and Security Intern",
+    company: "Celebal Technologies",
+    duration: "May 2024 - July 2024",
+    logo: ct,
+    points: [
+        "AWS, Azure, GCP",
+        "VMs, Docker, Kubernetes",
+        "VPC, Subnets, Firewalls",
+        "IAM policies, Load Balancers",
+        "DNS Forwarding, Route traffic",
+        "Application Gateway, Security groups",
+        "VPN, DDoS protection, WAF",
+        "SSL Offloading, CI/CD pipelines"
+    ],
+  },
+  // Add more as needed
+]
+
 
 
