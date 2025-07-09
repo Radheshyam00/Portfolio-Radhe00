@@ -6,6 +6,7 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import ct from './ct.png';
+// import image from './image.png';
 import AZ_204 from './AZ-204.png';
 import digital from './digital.png';
 import data from './data.png';
@@ -69,6 +70,7 @@ export const assets = {
     ct,
     bec,
     up_police,
+    // image,
     power,
     factory,
     lake,
@@ -117,6 +119,12 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Image Analyser',
+        description: 'Forensic',
+        bgImage: '/image.png',
+        link: 'https://github.com/Radheshyam00/ImageAnalyzer00',
+    },
+    {
         title: 'Log Analyser',
         description: 'SOC Analyst',
         bgImage: '/Log.png',
@@ -153,7 +161,7 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Bash Script, HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science and B.B.A in minor' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science and minor in B.B.A' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 4 projects' }
 ];
 
