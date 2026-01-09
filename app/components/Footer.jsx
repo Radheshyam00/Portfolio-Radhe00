@@ -7,7 +7,7 @@ const Footer = ({ isDarkMode }) => {
     <div className="mt-10">
       <div className="text-center">
         <div className="flex flex-wrap justify-center items-center gap-6 mt-6 my-10 px-5">
-          <img
+          {/* <img
             src="https://cyberdefenders-storage.s3.me-central-1.amazonaws.com/profile-badges/Pagalboy00.png"
             width="300"
           />
@@ -15,7 +15,7 @@ const Footer = ({ isDarkMode }) => {
             src="https://tryhackme-badges.s3.amazonaws.com/dead.shut.png"
             alt="Your Image Badge"
             width="330"
-          />
+          /> */}
         </div>
         <div className="grid grid-cols-auto gap-6 my-10 px-10">
           <Image src={assets.ceh} alt="" className="w-36 mx-auto mb-2" />

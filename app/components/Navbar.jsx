@@ -70,6 +70,12 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
                 <li><a href='#services' className='font-Ovo' onClick={closeManu}>Services</a></li>
                 <li><a href='#work' className='font-Ovo' onClick={closeManu}>My Work</a></li>
                 <li><a href='#contact' className='font-Ovo' onClick={closeManu}>Contact me</a></li>
+                <li><a href='https://dark-blog00.vercel.app/'
+                   target='_blank'
+                   rel='noopener noreferrer' 
+                   className='items-center gap-3 px-10 py-2.5 border border-gray-500 
+                                rounded-full ml-4 font-Ovo dark:border-white/50'>
+                    Blog </a></li>
                 
             </ul>
         </nav>
